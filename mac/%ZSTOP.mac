@@ -1,0 +1,7 @@
+ROUTINE %ZSTOP
+%ZSTOP ; останов
+	quit
+SYSTEM
+	;сохраним предпочтения пользователей в неубиваемом глобале
+	merge ^tmpMgtPortalSettings=^CacheTemp.MgtPortalSettings
+	quit

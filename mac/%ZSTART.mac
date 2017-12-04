@@ -1,0 +1,7 @@
+ROUTINE %ZSTART
+%ZSTART ; старт
+	quit
+SYSTEM
+	;восстановим предпочтения пользователей из неубиваемого глобала
+	if $data(^tmpMgtPortalSettings) merge ^CacheTemp.MgtPortalSettings=^tmpMgtPortalSettings
+	quit
