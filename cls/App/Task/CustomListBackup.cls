@@ -1,7 +1,7 @@
 Include %occKeyword
 
 /// Класс задачи резервного копирования
-Class %SYS.Task.CustomListBackup Extends %SYS.Task.Definition [ LegacyInstanceContext ]
+Class App.Task.CustomListBackup Extends %SYS.Task.Definition [ LegacyInstanceContext ]
 {
 
 /// Если ..AllDatabases=1, то в копию включать все базы данных ..PrefixIncludeDB и ..IncludeDatabases - игнорируются
