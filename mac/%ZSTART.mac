@@ -1,7 +1,9 @@
-ROUTINE %ZSTART
-%ZSTART ; старт
-	quit
-SYSTEM
-	;восстановим предпочтения пользователей из неубиваемого глобала
+%ZSTART() {
+	Quit	
+}
+
+///	restore users’ preferences from a non-killable global
+SYSTEM() Public {
 	if $data(^tmpMgtPortalSettings) merge ^CacheTemp.MgtPortalSettings=^tmpMgtPortalSettings
 	quit
+}
