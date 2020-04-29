@@ -148,8 +148,8 @@ Method OnTask() As %Status
 /// Get file names
 Method GetFileName(aBackupFile, ByRef aLogFile) As %Status
 {
-	set tmpName=..PrefixBackUpFile_"_"_..TypeBackup_"_"_$s(..AllDatabases:"All",1:"List")_"_"_$zd($h,8)_$tr($j($i(cnt),3)," ",0)
 	do {
+		set tmpName=..PrefixBackUpFile_"_"_..TypeBackup_"_"_$s(..AllDatabases:"All",1:"List")_"_"_$zd($h,8)_$tr($j($i(cnt),3)," ",0)
 		s aBackupFile=##class(%File).NormalizeFilename(..DirBackup_"/"_tmpName_".cbk")
 	} while ##class(%File).Exists(aBackupFile)
 	set aLogFile=##class(%File).NormalizeFilename(..DirBackupLog_"/"_tmpName_".log")
