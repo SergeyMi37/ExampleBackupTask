@@ -49,9 +49,11 @@ Open IRIS terminal:
 
 ```
 $ docker-compose exec iris iris session iris
-USER>
-USER>zpm
-zpm:USER>install example-useful-utils
+USER>zn "%SYS"
+%SYS>zpm
+zpm:%SYS>list
+
+example-useful-utils 1.0.0
 ```
 
 ## Protection of event logs
