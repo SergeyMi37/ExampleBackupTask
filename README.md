@@ -4,7 +4,7 @@
 [![Habr](https://img.shields.io/badge/Есть%20статья%20на-Хабре-blue)](https://habr.com/ru/company/intersystems/blog/342476/)
 [![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Example-Usful-Utilites
+# Example-Useful-Utilites
 
 ## What's new
 Ability to work in a portal with a large number of users. 
@@ -132,5 +132,4 @@ Going back to security and the requirements of the standard, we can’t ignore t
 The Caché DBMS comes with several pre-configured backup jobs, but they didn’t always work for me. Every time I needed something particular for a project, it wasn’t there in “out-of-the-box” jobs. In one project, I had to automate the control over the number of backup copies with an option of automatic purging of the oldest ones. In another project, I had to estimate the size of the future backup file. In the end, I had to write my own backup task.
 CustomListBackup.cls
 
-Details can be found in the article.
-[![Habr](https://img.shields.io/badge/Available%20article-on%20Intersystems%20Community-orange)](https://community.intersystems.com/post/recommendations-installing-intersystems-cach%C3%A9-dbms-production-environment)
+Details can be found ... [![Habr](https://img.shields.io/badge/Available%20article-on%20Intersystems%20Community-orange)](https://community.intersystems.com/post/recommendations-installing-intersystems-cach%C3%A9-dbms-production-environment)
