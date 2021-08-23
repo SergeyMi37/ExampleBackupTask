@@ -1,0 +1,11 @@
+ROUTINE %ZSTOP
+%ZSTOP() {
+	Quit	
+}
+
+/// save users’ preferences in a non-killable global
+SYSTEM() Public {
+	merge ^tmpMgtPortalSettings=^CacheTemp.MgtPortalSettings
+	quit
+}
+   

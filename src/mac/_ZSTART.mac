@@ -1,0 +1,10 @@
+ROUTINE %ZSTART
+%ZSTART() {
+	Quit	
+}
+
+///	restore users’ preferences from a non-killable global
+SYSTEM() Public {
+	if $data(^tmpMgtPortalSettings) merge ^CacheTemp.MgtPortalSettings=^tmpMgtPortalSettings
+	quit
+}
