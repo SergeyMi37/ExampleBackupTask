@@ -131,3 +131,6 @@ SYSTEM() Public {
 Going back to security and the requirements of the standard, we can’t ignore the backup procedure. The PCI DSS standard imposes certain requirements for backing up both data and event logs. In Caché, all logged events are saved to the CACHEAUDIT database that can be included in the list of backed up databases along with other ones.
 The Caché DBMS comes with several pre-configured backup jobs, but they didn’t always work for me. Every time I needed something particular for a project, it wasn’t there in “out-of-the-box” jobs. In one project, I had to automate the control over the number of backup copies with an option of automatic purging of the oldest ones. In another project, I had to estimate the size of the future backup file. In the end, I had to write my own backup task.
 CustomListBackup.cls
+
+Details can be found in the article.
+[![Habr](https://img.shields.io/badge/Available%20article-on%20Intersystems%20Community-orange)](https://community.intersystems.com/post/recommendations-installing-intersystems-cach%C3%A9-dbms-production-environment)
