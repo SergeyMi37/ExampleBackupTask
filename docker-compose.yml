@@ -7,11 +7,11 @@ services:
     restart: always
     ports: 
 #     - 51773
-# new sSuperServerPOrt
+# new SuperServerPort
      - 1972
      - 52773
      - 53773
     volumes:
-# no key requieed for community image
+# no key required for community image
 #      - ~/iris.key:/usr/irissys/mgr/iris.key
       - ./:/irisdev/app
