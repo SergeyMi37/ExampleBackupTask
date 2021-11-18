@@ -1,4 +1,4 @@
-version: '3.6'
+version: '3.8'
 services:
   iris:
     build: 
@@ -6,9 +6,12 @@ services:
       dockerfile: Dockerfile
     restart: always
     ports: 
-      - 51773
-      - 52773
-      - 53773
+#     - 51773
+# new SuperServerPort
+     - 1972
+     - 52773
+     - 53773
     volumes:
-      - ~/iris.key:/usr/irissys/mgr/iris.key
+# no key required for community image
+#      - ~/iris.key:/usr/irissys/mgr/iris.key
       - ./:/irisdev/app
