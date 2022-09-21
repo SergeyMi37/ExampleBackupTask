@@ -2,7 +2,7 @@
 [![GitHub all releases](https://img.shields.io/badge/Available%20on-GitHub-black)](https://github.com/SergeyMi37/apptools-task)
 [![Habr](https://img.shields.io/badge/Available%20article-on%20Intersystems%20Community-orange)](https://community.intersystems.com/post/recommendations-installing-intersystems-cach%C3%A9-dbms-production-environment)
 [![Habr](https://img.shields.io/badge/Есть%20статья%20на-Хабре-blue)](https://habr.com/ru/company/intersystems/blog/342476/)
-[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2FExampleBackupTask&metric=alert_status)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2FExampleBackupTask) 
 
 # Example-Useful-Utilites
 
